@@ -9,8 +9,9 @@ It's chaos!
 
 Well, we've had enough.  This time we're going to do it right and organize this
 potluck from the beginning.  In this challenge, you'll need to GET and POST to
-our Potluck API to create a user for yourself, find out what you should bring,
-and add it to the list of items.  So, what are you bringing to the potluck?
+our Potluck API to create a user for yourself, see what everyone else is
+bringing, and then add an item of your choice to the list.  So, what are you
+bringing to the potluck?
 
 You may complete this challenge by whatever means necessary (code, browser, CLI, etc.)
 
