@@ -3,7 +3,7 @@
 ### Summary
 
 Welcome to the UL Potluck API code challenge! One persistent problem we
-have as a company is deciding what everyone should bring to a potluck.  [Dave](https://github.com/luminous14?tab=repositories) always insists on bringing
+have as a team is deciding what everyone should bring to a [potluck](https://en.wikipedia.org/wiki/Potluck).  [Dave](https://github.com/luminous14?tab=repositories) always insists on bringing
 green jello... [Stephanie](https://github.com/stephmarx) brings nothing but napkins...
 It's chaos!  
 
