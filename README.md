@@ -20,7 +20,7 @@ ian.agne@ul.com.
 ### Release 0
 
 The first task is to POST to
-https://cryptic-oasis-32000.herokuapp.com/users to create a user.
+https://potluck-api.herokuapp.com/users to create a user.
 
 Example data to POST:
 ```
@@ -37,13 +37,13 @@ later.
 
 ### Release 1
 
-The next step is to send a GET request to https://cryptic-oasis-32000.herokuapp.com/items
+The next step is to send a GET request to https://potluck-api.herokuapp.com/items
 with your api_key in the query string to get a list of all items that people are
 bringing to the potluck.
 
 ### Release 2
 
-Come up with a great item to add to the list, and then POST to https://cryptic-oasis-32000.herokuapp.com/items
+Come up with a great item to add to the list, and then POST to https://potluck-api.herokuapp.com/items
 
 Example data to POST:
 ```
@@ -55,6 +55,6 @@ Example data to POST:
 }
 ```
 
-Then, GET https://cryptic-oasis-32000.herokuapp.com/items with your api_key
+Then, GET https://potluck-api.herokuapp.com/items with your api_key
 again to make sure the item was added to the list (look for the item with your
   user_id ).
