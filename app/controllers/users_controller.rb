@@ -1,5 +1,13 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
+  before_action :authenticate_admin
+
+  def index
+    @users = User.all
+
+    render json: @users
+  end
+
 
   # POST /users
   def create
@@ -21,5 +29,11 @@ class UsersController < ApplicationController
     # Only allow a trusted parameter "white list" through.
     def user_params
       params.require(:user).permit(:email)
+    end
+
+    def authenticate_admin
+      unless params[:api_key] == ENV['ADMIN_API_KEY']
+        render json: { errors: "Not authenticated" }, status: :unauthorized
+      end
     end
 end
